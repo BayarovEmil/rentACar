@@ -6,12 +6,14 @@ import com.cognito.rent_a_car_api.core.exception.OperationNotPermittedException;
 import com.cognito.rent_a_car_api.core.file.FileStorageService;
 import com.cognito.rent_a_car_api.dataAccess.CarRepository;
 import com.cognito.rent_a_car_api.dataAccess.CarTransactionHistoryRepository;
+import com.cognito.rent_a_car_api.dataAccess.WaitingCarRepository;
 import com.cognito.rent_a_car_api.dto.CarRequest;
 import com.cognito.rent_a_car_api.dto.CarResponse;
 import com.cognito.rent_a_car_api.dto.RentedCarResponse;
 import com.cognito.rent_a_car_api.dto.converter.CarMapper;
 import com.cognito.rent_a_car_api.entity.Car;
 import com.cognito.rent_a_car_api.entity.CarTransactionHistory;
+import com.cognito.rent_a_car_api.entity.WaitingCar;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -25,6 +27,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;
 import java.util.Objects;
+import java.util.stream.Collectors;
 
 import static com.cognito.rent_a_car_api.dto.CarSpecification.withOwnerId;
 
@@ -43,10 +46,72 @@ public class CarService {
         return carRepository.save(car).getId();
     }
 
+    public Integer updateCar(Integer carId, CarRequest request, Authentication connectedUser) {
+        Car car = carRepository.findById(carId)
+                .orElseThrow(()->new EntityNotFoundException("Car not found by id"));
+        User user = (User) connectedUser.getPrincipal();
+        if (!Objects.equals(car.getOwner().getId(),user.getId())) {
+            throw new OperationNotPermittedException("You can't change others car information");
+        }
+
+        if (request.brand()!=null) {
+            car.setBrand(request.brand());
+        }
+        if (request.model()!=null) {
+            car.setModel(request.model());
+        }
+        if (request.fuelType()!=null) {
+            car.setFuelType(request.fuelType());
+        }
+        if (request.capacity()!=0) {
+            car.setCapacity(request.capacity());
+        }
+        if (request.dailyRentalRate()!=0) {
+            car.setDailyRentalRate(request.dailyRentalRate());
+        }
+        if (request.manufacturingYear()!=0) {
+            car.setManufacturingYear(request.manufacturingYear());
+        }
+        return carRepository.save(car).getId();
+    }
+
     public CarResponse findById(Integer carId) {
         return carRepository.findById(carId)
                 .map(carMapper::toCarResponse)
                 .orElseThrow(()->new EntityNotFoundException("Car not found by id"));
+    }
+
+    public PageResponse<CarResponse> findByCarName(int page, int size, String carName) {
+        Pageable pageable = PageRequest.of(page,size,Sort.by("createdDate").descending());
+        Page<Car> cars = carRepository.findByBrand(pageable,carName);
+        List<CarResponse> carResponses = cars.stream()
+                .map(carMapper::toCarResponse)
+                .toList();
+        return new PageResponse<>(
+                carResponses,
+                cars.getNumber(),
+                cars.getSize(),
+                cars.getTotalElements(),
+                cars.getTotalPages(),
+                cars.isFirst(),
+                cars.isLast()
+        );
+    }
+    public PageResponse<CarResponse> findAll(int page, int size) {
+        Pageable pageable =PageRequest.of(page,size,Sort.by("createdDate").descending());
+        Page<Car> cars = carRepository.findAll(pageable);
+        List<CarResponse> carResponses = cars.stream()
+                .map(carMapper::toCarResponse)
+                .toList();
+        return new PageResponse<>(
+                carResponses,
+                cars.getNumber(),
+                cars.getSize(),
+                cars.getTotalElements(),
+                cars.getTotalPages(),
+                cars.isFirst(),
+                cars.isLast()
+        );
     }
 
     public PageResponse<CarResponse> findAllCars(int page, int size, Authentication connectedUser) {
@@ -121,6 +186,25 @@ public class CarService {
                 carTransactionHistories.isLast()
         );
     }
+
+    public PageResponse<RentedCarResponse> findAllMyReturnedCars(int page, int size, Authentication connectedUser) {
+        User user = (User) connectedUser.getPrincipal();
+        Pageable pageable = PageRequest.of(page,size,Sort.by("createdDate").descending());
+        Page<CarTransactionHistory> carTransactionHistories = historyRepository.findAllMyReturnedCars(pageable,user.getId());
+        List<RentedCarResponse> carResponses = carTransactionHistories.stream()
+                .map(carMapper::toRentedCarResponse)
+                .toList();
+        return new PageResponse<>(
+                carResponses,
+                carTransactionHistories.getNumber(),
+                carTransactionHistories.getSize(),
+                carTransactionHistories.getTotalElements(),
+                carTransactionHistories.getTotalPages(),
+                carTransactionHistories.isFirst(),
+                carTransactionHistories.isLast()
+        );
+    }
+
 
     public Integer updateAvailableStatus(Integer carId, Authentication connectedUser) {
         Car car = carRepository.findById(carId)

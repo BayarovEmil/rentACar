@@ -11,20 +11,18 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.experimental.SuperBuilder;
 
-@Getter
 @Setter
+@Getter
 @AllArgsConstructor
 @NoArgsConstructor
 @SuperBuilder
 @Entity
-public class Feedback extends BaseEntity {
-    private Double note;
-    private String comment;
+public class WaitingCar extends BaseEntity {
 
     @ManyToOne
-    @JoinColumn(name = "carId",nullable = false)
-    private Car car;
-    @ManyToOne
-    @JoinColumn(name = "userId",nullable = false)
+    @JoinColumn(name = "userId")
     private User user;
+    @ManyToOne
+    @JoinColumn(name = "carId")
+    private Car car;
 }

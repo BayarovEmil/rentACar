@@ -1,11 +1,14 @@
 package com.cognito.rent_a_car_api.dataAccess;
 
+import com.cognito.rent_a_car_api.core.common.PageResponse;
 import com.cognito.rent_a_car_api.entity.Car;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.jpa.repository.Query;
+
+import java.util.List;
 
 public interface CarRepository extends JpaRepository<Car,Integer> , JpaSpecificationExecutor<Car> {
     @Query("""
@@ -15,5 +18,5 @@ public interface CarRepository extends JpaRepository<Car,Integer> , JpaSpecifica
             AND car.owner.id != :userId
             """)
     Page<Car> findAllDisplayableCars(Pageable pageable, Integer userId);
-
+    Page<Car> findByBrand(Pageable pageable,String carName);
 }

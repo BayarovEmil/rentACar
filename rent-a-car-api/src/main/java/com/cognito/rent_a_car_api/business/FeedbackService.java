@@ -46,7 +46,7 @@ public class FeedbackService {
         if (!isCarReturnedByUser) {
             throw new OperationNotPermittedException("You can't give a feedback for this car.This car not rented by your.");
         }
-        Feedback feedback = feedbackMapper.toFeedback(request);
+        Feedback feedback = feedbackMapper.toFeedback(request,user);
         return feedbackRepository.save(feedback).getId();
     }
 

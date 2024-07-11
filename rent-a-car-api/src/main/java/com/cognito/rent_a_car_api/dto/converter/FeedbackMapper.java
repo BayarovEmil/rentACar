@@ -1,5 +1,6 @@
 package com.cognito.rent_a_car_api.dto.converter;
 
+import com.cognito.rent_a_car_api.core.entity.User;
 import com.cognito.rent_a_car_api.dto.FeedbackRequest;
 import com.cognito.rent_a_car_api.dto.FeedbackResponse;
 import com.cognito.rent_a_car_api.entity.Car;
@@ -10,7 +11,7 @@ import java.util.Objects;
 
 @Service
 public class FeedbackMapper {
-    public Feedback toFeedback(FeedbackRequest request) {
+    public Feedback toFeedback(FeedbackRequest request,User user) {
         return Feedback.builder()
                 .note(request.note())
                 .comment(request.comment())
@@ -18,6 +19,7 @@ public class FeedbackMapper {
                         .id(request.carId())
                         .available(false)
                         .build())
+                .user(user)
                 .build();
     }
 
@@ -26,6 +28,7 @@ public class FeedbackMapper {
                 .note(request.getNote())
                 .comment(request.getComment())
                 .ownFeedback(Objects.equals(request.getId(),userId))
+                .owner(request.getUser().getName())
                 .build();
     }
 }

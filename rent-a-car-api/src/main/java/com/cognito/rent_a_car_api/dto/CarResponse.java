@@ -4,6 +4,7 @@ import lombok.Builder;
 
 @Builder
 public record CarResponse(
+        Integer id,
         String brand,
         String model,
         int manufacturingYear,
@@ -11,6 +12,8 @@ public record CarResponse(
         double dailyRentalRate,
         int capacity,
         byte[] cover,
-        boolean available
+        boolean available,
+        String owner,
+        double rate
 ) {
 }

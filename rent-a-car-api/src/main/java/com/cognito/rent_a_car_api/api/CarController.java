@@ -14,6 +14,8 @@ import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("car")
 @Tag(name = "Car")
@@ -36,6 +38,21 @@ public class CarController {
         return ResponseEntity.ok(carService.findById(carId));
     }
 
+    @GetMapping("/findByCarName/{car-name}")
+    public ResponseEntity<PageResponse<CarResponse>> findByCarName(
+            @RequestParam("car-name") String carName,
+            @RequestParam(name = "page",defaultValue = "0",required = false) int page,
+            @RequestParam(name = "size",defaultValue = "10",required = false) int size
+    ) {
+        return ResponseEntity.ok(carService.findByCarName(page,size,carName));
+    }
+    @GetMapping("/findAllCars")
+    public ResponseEntity<PageResponse<CarResponse>> findAll(
+            @RequestParam(name = "page",defaultValue = "0",required = false) int page,
+            @RequestParam(name = "size",defaultValue = "10",required = false) int size
+    ) {
+        return ResponseEntity.ok(carService.findAll(page,size));
+    }
     @GetMapping("/findAll")
     public ResponseEntity<PageResponse<CarResponse>> findAllCars(
             @RequestParam(name = "page",defaultValue = "0",required = false) int page,
@@ -72,6 +89,24 @@ public class CarController {
         return ResponseEntity.ok(carService.findAllReturnedCars(page,size,connectedUser));
     }
 
+    @GetMapping("/findAllMyReturnedCars")
+    public ResponseEntity<PageResponse<RentedCarResponse>> findAllMyReturnedCars(
+            @RequestParam(name = "page",defaultValue = "0",required = false) int page,
+            @RequestParam(name = "size",defaultValue = "10",required = false) int size,
+            Authentication connectedUser
+    ) {
+        return ResponseEntity.ok(carService.findAllMyReturnedCars(page,size,connectedUser));
+    }
+
+    @PutMapping("/update/{car-id}")
+    public ResponseEntity<Integer> updateCar(
+            @PathVariable("car-id") Integer carId,
+            @Valid @RequestBody CarRequest request,
+            Authentication connectedUser
+    ) {
+        return ResponseEntity.ok(carService.updateCar(carId,request,connectedUser));
+    }
+
     @PatchMapping("/available/{car-id}")
     public ResponseEntity<Integer> updateAvailableStatus(
         @PathVariable("car-id") Integer carId,
@@ -88,13 +123,14 @@ public class CarController {
         return ResponseEntity.ok(carService.rentCar(carId,connectedUser));
     }
 
-    @GetMapping("rent/return/{car-id}")
+    @PostMapping("rent/return/{car-id}")
     public ResponseEntity<Integer> returnRentedCar(
             @PathVariable("car-id") Integer carId,
             Authentication connectedUser
     ) {
-        return ResponseEntity.ok(carService.returnRentedCar(carId,connectedUser));
+        return ResponseEntity.ok(carService.returnRentedCar(carId, connectedUser));
     }
+
 
     @GetMapping("rent/return/approve/{car-id}")
     public ResponseEntity<Integer> approveReturnRentedCar(

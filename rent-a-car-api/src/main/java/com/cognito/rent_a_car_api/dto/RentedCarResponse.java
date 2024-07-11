@@ -8,6 +8,7 @@ import lombok.*;
 @NoArgsConstructor
 @Builder
 public class RentedCarResponse {
+    private Integer id;
     private String brand;
     private String model;
     private int manufacturingYear;

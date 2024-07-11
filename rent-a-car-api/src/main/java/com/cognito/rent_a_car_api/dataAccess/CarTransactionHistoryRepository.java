@@ -28,8 +28,17 @@ public interface CarTransactionHistoryRepository extends JpaRepository<CarTransa
     Page<CarTransactionHistory> findAllReturnedCars(Pageable pageable, Integer userId);
 
     @Query("""
+            select history
+            from CarTransactionHistory history
+            where history.car.owner.id=:userId
+            and history.returned=true
+            and history.returnApproved=false
+            """)
+    Page<CarTransactionHistory> findAllMyReturnedCars(Pageable pageable, Integer userId);
+
+    @Query("""
             SELECT
-            (COUNT (*) > 0) AS isBorrowed
+            (COUNT (*) > 0) AS isRented
             from CarTransactionHistory history
             where history.user.id=:userId
             and history.car.id=:carId
@@ -75,4 +84,5 @@ public interface CarTransactionHistoryRepository extends JpaRepository<CarTransa
             and history.returnApproved=false
             """)
     Optional<CarTransactionHistory> findCarIdAndOwnerId(Integer userId, Integer carId);
+
 }
