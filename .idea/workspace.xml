@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7427e714-4aad-4588-b02f-98993053e837" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/35b6bacd-0da6-4627-b72f-507bf64ea6c0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/35b6bacd-0da6-4627-b72f-507bf64ea6c0/storage_v2/_src_/database/postgres.edMnLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/35b6bacd-0da6-4627-b72f-507bf64ea6c0/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/35b6bacd-0da6-4627-b72f-507bf64ea6c0/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/35b6bacd-0da6-4627-b72f-507bf64ea6c0/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/35b6bacd-0da6-4627-b72f-507bf64ea6c0/storage_v2/_src_/database/rent_a_car.cEZoig.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/35b6bacd-0da6-4627-b72f-507bf64ea6c0/storage_v2/_src_/database/rent_a_car.cEZoig/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/35b6bacd-0da6-4627-b72f-507bf64ea6c0/storage_v2/_src_/database/rent_a_car.cEZoig/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/35b6bacd-0da6-4627-b72f-507bf64ea6c0/storage_v2/_src_/database/rent_a_car.cEZoig/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/RentACarApiApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/api/AuthenticationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/api/CarController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/api/FeedbackController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/api/WaitingCarController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/business/AuthenticationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/business/CarService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/business/FeedbackService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/business/WaitingCarService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/common/BaseEntity$BaseEntityBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/common/BaseEntity$BaseEntityBuilderImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/common/BaseEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/common/PageResponse$PageResponseBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/common/PageResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/config/ApplicationAuditAware.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/config/BeansConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/config/OpenApiConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/dataAccess/ActivationTokenRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/dataAccess/RoleRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/dataAccess/TokenRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/dataAccess/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/dto/AuthenticationRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/dto/AuthenticationResponse$AuthenticationResponseBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/dto/AuthenticationResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/dto/RegistrationRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/email/EmailService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/email/EmailTemplateName.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/entity/ActivationToken$ActivationTokenBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/entity/ActivationToken$ActivationTokenBuilderImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/entity/ActivationToken.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/entity/Role$RoleBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/entity/Role$RoleBuilderImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/entity/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/entity/Token$TokenBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/entity/Token$TokenBuilderImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/entity/Token.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/entity/TokenType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/entity/User$UserBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/entity/User$UserBuilderImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/exception/ActivationTokenException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/exception/OperationNotPermittedException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/file/FileStorageService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/file/FileUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/handler/BusinessErrorCodes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/handler/ExceptionResponse$ExceptionResponseBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/handler/ExceptionResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/handler/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/security/JwtFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/security/JwtService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/security/LogoutService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/security/SecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/core/security/UserDetailsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/dataAccess/CarRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/dataAccess/CarTransactionHistoryRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/dataAccess/FeedbackRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/dataAccess/WaitingCarRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/dto/CarRequest$CarRequestBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/dto/CarRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/dto/CarResponse$CarResponseBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/dto/CarResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/dto/CarSpecification.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/dto/FeedbackRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/dto/FeedbackResponse$FeedbackResponseBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/dto/FeedbackResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/dto/RentedCarResponse$RentedCarResponseBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/dto/RentedCarResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/dto/converter/CarMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/dto/converter/FeedbackMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/entity/Car$CarBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/entity/Car$CarBuilderImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/entity/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/entity/CarTransactionHistory$CarTransactionHistoryBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/entity/CarTransactionHistory$CarTransactionHistoryBuilderImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/entity/CarTransactionHistory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/entity/Feedback$FeedbackBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/entity/Feedback$FeedbackBuilderImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/entity/Feedback.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/entity/WaitingCar$WaitingCarBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/entity/WaitingCar$WaitingCarBuilderImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/com/cognito/rent_a_car_api/entity/WaitingCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/classes/templates/activate_account.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-api/target/test-classes/com/cognito/rent_a_car_api/RentACarApiApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/src/app/services/interceptor/http-token.interceptor.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/src/app/services/interceptor/http-token.interceptor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/src/openapi/openapi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rent-a-car-ui" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car-ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/src/styles.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="304efc0e-a404-4575-bd57-9de99f4a8c25" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2ikFVyChd7NcmE6OMX9bvtziGHZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
+    "git-widget-placeholder": "emil",
+    "last_opened_file_path": "C:/CognitoProjects/rentACar/rent-a-car-ui/rent-a-car-ui/src/app/services",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "ts.external.directory.path": "C:\\CognitoProjects\\rentACar\\rent-a-car-ui\\rent-a-car-ui\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\CognitoProjects\rentACar\rent-a-car-ui\rent-a-car-ui\src\app\services" />
+      <recent name="C:\CognitoProjects\rentACar\rent-a-car-api\src\main\java\com\cognito\rent_a_car_api\business" />
+      <recent name="C:\CognitoProjects\rentACar\rent-a-car-api\src\main\java\com\cognito\rent_a_car_api\api" />
+      <recent name="C:\CognitoProjects\rentACar\rent-a-car-api\src\main\resources\templates" />
+      <recent name="C:\CognitoProjects\rentACar\rent-a-car-api\src\main\java\com\cognito\rent_a_car_api\dto" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\CognitoProjects\rentACar\rent-a-car-ui\rent-a-car-ui\src\app\modules\car" />
+      <recent name="C:\CognitoProjects\rentACar\rent-a-car-ui\rent-a-car-ui\src\app\pages\register" />
+      <recent name="C:\CognitoProjects\rentACar" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cognito.rent_a_car_api.business" />
+      <recent name="com.cognito.rent_a_car_api.api" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.RentACarApiApplication">
+    <configuration name="RentACarApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="rent-a-car-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cognito.rent_a_car_api.RentACarApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="openapi.json" type="SwaggerCodegen" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="customTemplatesPath" value="" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="generateToPath" value="C:\CognitoProjects\rentACar\rent-a-car-api\src\main\gen" />
+      <option name="generationParameters">
+        <list />
+      </option>
+      <option name="generatorType" value="OPENAPI_GENERATOR_V6" />
+      <option name="jdkPath" value="C:\Users\LENOVO\Downloads\IntelliJ IDEA 2023.2.5\jbr\bin\java.exe" />
+      <option name="language" value="java" />
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="specificationPath" value="C:\CognitoProjects\rentACar\rent-a-car-ui\rent-a-car-ui\src\openapi\openapi.json" />
+      <option name="workingDirectory" value="C:\CognitoProjects\rentACar\rent-a-car-ui\rent-a-car-ui\src\openapi" />
+      <method v="2" />
+    </configuration>
+    <configuration name="api-gen" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="api-gen" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.api-gen" />
+        <item itemvalue="OpenAPI/Swagger Code Generator.openapi.json" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7427e714-4aad-4588-b02f-98993053e837" name="Changes" comment="" />
+      <created>1720026695303</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720026695303</updated>
+      <workItem from="1720026696329" duration="2938000" />
+      <workItem from="1720033491960" duration="2062000" />
+      <workItem from="1720081314652" duration="9474000" />
+      <workItem from="1720122511847" duration="807000" />
+      <workItem from="1720151851527" duration="9611000" />
+      <workItem from="1720208966889" duration="598000" />
+      <workItem from="1720276619973" duration="2907000" />
+      <workItem from="1720281842191" duration="434000" />
+      <workItem from="1720288442588" duration="1608000" />
+      <workItem from="1720318823296" duration="5577000" />
+      <workItem from="1720326076758" duration="17403000" />
+      <workItem from="1720420729333" duration="7176000" />
+      <workItem from="1720437019251" duration="3256000" />
+      <workItem from="1720442308306" duration="4017000" />
+      <workItem from="1720446514354" duration="1082000" />
+      <workItem from="1720453491487" duration="8032000" />
+      <workItem from="1720466936607" duration="4681000" />
+      <workItem from="1720501841448" duration="11983000" />
+      <workItem from="1720538260643" duration="12217000" />
+      <workItem from="1720585632069" duration="3182000" />
+      <workItem from="1720589615441" duration="20855000" />
+      <workItem from="1720630941073" duration="161000" />
+      <workItem from="1720634056663" duration="5884000" />
+      <workItem from="1720664574354" duration="19497000" />
+      <workItem from="1720751740881" duration="406000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
