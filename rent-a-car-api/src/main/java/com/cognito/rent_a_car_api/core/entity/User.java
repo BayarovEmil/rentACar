@@ -32,7 +32,7 @@ import java.util.stream.Collectors;
 @Table(name = "_user")
 public class User implements UserDetails, Principal{
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String firstname;
     private String lastname;

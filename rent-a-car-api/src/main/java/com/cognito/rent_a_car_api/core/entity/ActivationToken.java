@@ -17,7 +17,7 @@ import java.time.LocalDateTime;
 @Entity
 public class ActivationToken {
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     @Column(unique = true)
     private String token;

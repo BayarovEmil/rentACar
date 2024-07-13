@@ -39,9 +39,9 @@ public class FeedbackService {
         }
         User user = (User) connectedUser.getPrincipal();
 
-        if (Objects.equals(user.getId(),request.carId())) {
-            throw new OperationNotPermittedException("You can not give a feedback your car");
-        }
+//        if (Objects.equals(user.getId(),request.carId())) {
+//            throw new OperationNotPermittedException("You can not give a feedback your car");
+//        }
         boolean isCarReturnedByUser = carTransactionHistoryRepository.isCarReturnedByUser(car.getId(),user.getId());
         if (!isCarReturnedByUser) {
             throw new OperationNotPermittedException("You can't give a feedback for this car.This car not rented by your.");
