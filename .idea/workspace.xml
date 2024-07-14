@@ -9,6 +9,7 @@
       <change afterPath="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/src/app/services/interceptor/http-token.interceptor.spec.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/src/app/services/interceptor/http-token.interceptor.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/src/openapi/openapi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rent-a-car-ui" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car-ui" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/angular.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/package-lock.json" afterDir="false" />
