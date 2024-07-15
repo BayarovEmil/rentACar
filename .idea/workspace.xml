@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7427e714-4aad-4588-b02f-98993053e837" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/src/app/services/interceptor/http-token.interceptor.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/src/app/services/interceptor/http-token.interceptor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/src/openapi/openapi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rent-a-car-ui" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car-ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car-ui/rent-a-car-ui/src/styles.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="304efc0e-a404-4575-bd57-9de99f4a8c25" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2ikFVyChd7NcmE6OMX9bvtziGHZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
+    "git-widget-placeholder": "emil",
+    "last_opened_file_path": "C:/CognitoProjects/rentACar/rent-a-car-ui/rent-a-car-ui/src/app/services",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "ts.external.directory.path": "C:\\CognitoProjects\\rentACar\\rent-a-car-ui\\rent-a-car-ui\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\CognitoProjects\rentACar\rent-a-car-ui\rent-a-car-ui\src\app\services" />
+      <recent name="C:\CognitoProjects\rentACar\rent-a-car-api\src\main\java\com\cognito\rent_a_car_api\business" />
+      <recent name="C:\CognitoProjects\rentACar\rent-a-car-api\src\main\java\com\cognito\rent_a_car_api\api" />
+      <recent name="C:\CognitoProjects\rentACar\rent-a-car-api\src\main\resources\templates" />
+      <recent name="C:\CognitoProjects\rentACar\rent-a-car-api\src\main\java\com\cognito\rent_a_car_api\dto" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\CognitoProjects\rentACar\rent-a-car-ui\rent-a-car-ui\src\app\modules\car\pages" />
+      <recent name="C:\CognitoProjects\rentACar\rent-a-car-ui\rent-a-car-ui" />
+      <recent name="C:\CognitoProjects\rentACar\rent-a-car-ui" />
+      <recent name="C:\CognitoProjects\rentACar" />
+      <recent name="C:\CognitoProjects\rentACar\rent-a-car-ui\rent-a-car-ui\src\app\modules\car" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cognito.rent_a_car_api.business" />
+      <recent name="com.cognito.rent_a_car_api.api" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.RentACarApiApplication">
+    <configuration name="RentACarApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="rent-a-car-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cognito.rent_a_car_api.RentACarApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="backend/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="docker/backend/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.rent-api: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="rent-api" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.rent-ui: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="rent-ui" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="frontend/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="docker/frontend/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.rent-ui: Compose Deployment" />
+        <item itemvalue="Docker.frontend/Dockerfile" />
+        <item itemvalue="Docker.docker-compose.yml.rent-api: Compose Deployment" />
+        <item itemvalue="Docker.backend/Dockerfile" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7427e714-4aad-4588-b02f-98993053e837" name="Changes" comment="" />
+      <created>1720026695303</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720026695303</updated>
+      <workItem from="1720026696329" duration="2938000" />
+      <workItem from="1720033491960" duration="2062000" />
+      <workItem from="1720081314652" duration="9474000" />
+      <workItem from="1720122511847" duration="807000" />
+      <workItem from="1720151851527" duration="9611000" />
+      <workItem from="1720208966889" duration="598000" />
+      <workItem from="1720276619973" duration="2907000" />
+      <workItem from="1720281842191" duration="434000" />
+      <workItem from="1720288442588" duration="1608000" />
+      <workItem from="1720318823296" duration="5577000" />
+      <workItem from="1720326076758" duration="17403000" />
+      <workItem from="1720420729333" duration="7176000" />
+      <workItem from="1720437019251" duration="3256000" />
+      <workItem from="1720442308306" duration="4017000" />
+      <workItem from="1720446514354" duration="1082000" />
+      <workItem from="1720453491487" duration="8032000" />
+      <workItem from="1720466936607" duration="4681000" />
+      <workItem from="1720501841448" duration="11983000" />
+      <workItem from="1720538260643" duration="12217000" />
+      <workItem from="1720585632069" duration="3182000" />
+      <workItem from="1720589615441" duration="20855000" />
+      <workItem from="1720630941073" duration="161000" />
+      <workItem from="1720634056663" duration="5884000" />
+      <workItem from="1720664574354" duration="19497000" />
+      <workItem from="1720751740881" duration="13943000" />
+      <workItem from="1720835817503" duration="18000" />
+      <workItem from="1720835853541" duration="2041000" />
+      <workItem from="1720837930821" duration="19000" />
+      <workItem from="1720837973325" duration="103000" />
+      <workItem from="1720838093201" duration="13207000" />
+      <workItem from="1720901334590" duration="1567000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="nginx.conf" />
+  </component>
+</project>

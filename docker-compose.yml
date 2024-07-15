@@ -1,3 +1,5 @@
+version: '3.8'
+
 services:
   postgres:
     container_name: postgres-sql-rent
@@ -14,12 +16,34 @@ services:
     networks:
       - spring-demo
     restart: unless-stopped
+
   mail-dev:
     container_name: mail-dev-bsn
     image: maildev/maildev
     ports:
       - 1080:1080
       - 1025:1025
+
+  rent-api:
+    container_name: rent-api
+    image: rent/rent:1.0.3
+    ports:
+      - 8088:8088
+    networks:
+      - spring-demo
+    depends_on:
+      - postgres
+
+  rent-ui:
+    container_name: rent-ui
+    image: rent/rent-ui:1.0.1
+    ports:
+      - 8080:80
+    networks:
+      - spring-demo
+    depends_on:
+      - rent-api
+
 networks:
   spring-demo:
     driver: bridge
